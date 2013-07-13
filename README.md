@@ -1,6 +1,6 @@
 # Net::EmptyPort
 
-TODO: Write a gem description
+This module can find, check and wait an empty TCP/UDP port.
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    port = Net::EmptyPort.empty_port
+    TCPServer.new('127.0.0.1', port)
+
+    Net::EmptyPort.used?(port)
+
+    Net::EmptyPort.wait(port, 3)
 
 ## Contributing
 

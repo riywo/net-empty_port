@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Net::EmptyPort::VERSION
   spec.authors       = ["Ryosuke IWANAGA"]
   spec.email         = ["riywo.jp@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{An empty port for TCP/UDP}
+  spec.summary       = %q{This module can find, check and wait an empty TCP/UDP port.}
+  spec.homepage      = "https://github.com/riywo/net-empty_port"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
