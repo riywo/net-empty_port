@@ -1,5 +1,7 @@
 # Net::EmptyPort
 
+[![Build Status](https://travis-ci.org/riywo/net-empty_port.png?branch=master)](https://travis-ci.org/riywo/net-empty_port)
+
 This module can find, check and wait an empty TCP/UDP port.
 
 ## Installation
