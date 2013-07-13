@@ -27,6 +27,19 @@ Or install it yourself as:
 
     Net::EmptyPort.wait(port, 3)
 
+## Thanks
+
+This module is originally in a perl module `Test::TCP` written by tokuhirom. Thanks a lot.
+
+## See also
+
+### [glint](https://github.com/kentaro/glint)
+This module is similar, but only for starting a server process.
+
+## TODO
+
+- more test
+
 ## Contributing
 
 1. Fork it
