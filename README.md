@@ -29,7 +29,7 @@ Or install it yourself as:
 
 ## Thanks
 
-This module is originally in a perl module `Test::TCP` written by tokuhirom. Thanks a lot.
+This module is originally in a perl module [`Test::TCP`](https://github.com/tokuhirom/Test-TCP) written by tokuhirom. Thanks a lot.
 
 ## See also
 
