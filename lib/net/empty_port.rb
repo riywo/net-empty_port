@@ -59,7 +59,9 @@ module Net
       end
 
       def udp_used?(port)
-        UDPSocket.new().bind('127.0.0.1', port)
+        s = UDPSocket.new()
+        s.bind('127.0.0.1', port)
+        s.close
         false
       rescue Errno::EADDRINUSE, Errno::EACCES
         true
